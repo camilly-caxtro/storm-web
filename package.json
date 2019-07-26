@@ -1,0 +1,26 @@
+{
+  "name": "storm",
+  "version": "1.0.0",
+  "description": "sistema de gerenciamento de produtos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilly-caxtro/storm-web.git"
+  },
+  "keywords": [
+    "produtos",
+    "gerenciador",
+    "de",
+    "produtos",
+    "storm"
+  ],
+  "author": "Camilly de Castro Ribeiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camilly-caxtro/storm-web/issues"
+  },
+  "homepage": "https://github.com/camilly-caxtro/storm-web#readme"
+}
