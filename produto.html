@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> Produtos - STORM </title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="node_modules/ladda/dist/ladda-themeless.min.css"/>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
 </head>
 <body>
         <nav class="navbar navbar-expanded-lg navbar-dark bg-dark">
@@ -40,8 +42,34 @@
                      Cadastre um novo produto
                      para ser exibido na prateleira
                  </p>
-             </div>     
+             </div>
+             <div class="container-fluid"></div>
+             <form id="formProduto" autocomplete="off">
+                 <div class="row">
+                     <div class="col-12 col-md-6">
+                         <div class="form-group">
+                             <input class="form-control" type="text" name="nomeProduto" placeholder="Qual o Nome?"/>
+                         </div>
+                     </div>
+                     <div class="col-12 col-md-6">
+                         <div class="form-group">
+                             <input class="form-control" type="text" name="precoProduto" placeholder="Qual o preço?"/>
+                         </div>
+                     </div>
+                     <div class="col-12">
+                         <div class="form-group">
+                             <textarea  rows="8" class="form-control" name="descProduto" placeholder="Qual a descrição?"></textarea>
+                         </div>
+                     </div>
+                     <div class="col-12 d-flex justify-content-end">
+                        <button id="btnSalvar" type="submit" class="btn btn-primary">Salvar</button>
+                     </div>
+                 </div>
+             </form>    
 </body>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/ladda/dist/spin.min.js"></script>
+<script src="node_modules/ladda/dist/ladda.min.js"></script>
+<script src="produto.js"></script>
 </html>

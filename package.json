@@ -25,6 +25,7 @@
   "homepage": "https://github.com/camilly-caxtro/storm-web#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "ladda": "^1.0.5"
   }
 }
